@@ -1,0 +1,88 @@
+@import "Colors.css";
+
+.App {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.topbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.image-container {
+  display: flex;
+  height: calc(50px + 12vh);
+  width: calc(50px + 12vh);
+  margin-right: 1.5vw;
+}
+
+.image {
+  display: flex;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.nameheader {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  color: var(--color-5);
+  font-size: calc(11px + 2vh + 1vw);
+}
+
+h2 {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  color: var(--color-4);
+  font-size: calc(10px + .5vh + .5vw);
+  text-align: center;
+}
+
+#email {
+  color: var(--color-5);
+  font-size: calc(10px + .2vh + .2vw);
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+}
+
+.headerbar {
+  display: flex;
+}
+
+.header {
+padding-bottom: 1vh;
+}
+
+.location {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+}
+
+#locationtag {
+  color: var(--color-4);
+  padding-left: .5vw;
+  align-self: center;
+  font-size: calc(6px + 1vh);
+}

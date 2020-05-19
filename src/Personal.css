@@ -1,0 +1,41 @@
+@import "Colors.css";
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.Personal {
+  display: flex;
+  flex-flow: column wrap;
+  color: var(--color-6);
+}
+
+.book {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.bookurl {
+  text-decoration: none;
+  display: flex;
+  color: var(--color-7);
+}
+
+.bookurl:hover {
+  color: var(--color-3);
+}
+
+.title {
+  padding-right: 1vw;
+}
+
+.author {
+  color: var(--color-4);
+}

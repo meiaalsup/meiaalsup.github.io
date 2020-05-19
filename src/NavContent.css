@@ -1,0 +1,32 @@
+@import "Colors.css";
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav {
+  text-decoration: none;
+  color: var(--color-5);
+}
+
+.nav:hover {
+  color: var(--color-3);
+}
+
+.tab {
+  text-align: center;
+  display: inline;
+  padding: 1vw;
+}
+
+
+.PageContent {
+  padding-top: 2vw;
+  width: 70vw;
+  text-align: left;
+}
+
+

@@ -1,0 +1,45 @@
+@import "Colors.css";
+
+.Work {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.exp {
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 3vh;
+  justify-content: flex-start;
+}
+
+
+.content {
+  padding-right: 2vw;
+  font-size: calc(10px + .4vh + .4vw);
+}
+
+.workurl {
+  text-decoration: none;
+  color: var(--color-7)
+}
+
+.workurl:hover {
+  color: var(--color-2);
+}
+
+.role {
+  color: var(--color-5);
+}
+.time {
+  color: var(--color-4);
+}
+
+
+h4 {
+  display: flex;
+  padding: 0;
+  padding-bottom: 5vh;
+  margin: 0;
+  font-size: calc(10px + .7vh + .7vw);
+  justify-content: center;
+}
