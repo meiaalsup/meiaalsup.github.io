@@ -5,7 +5,11 @@ import IconData from './data/IconData.js'
 
 const IconLink = ({name, url, faclass, id}) => (
     <a className="iconSection" target="_blank" rel="noopener noreferrer" href={url} >
-      <i className={faclass} id={id}></i>
+      <div className="iconBoxWrapper">
+        <div className="iconBox">
+          <i className={`${faclass} iconinside`} id={id}></i>
+        </div>
+      </div>
       <div className="iconlabel">
         {name}
       </div>

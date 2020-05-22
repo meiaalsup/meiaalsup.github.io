@@ -1,16 +1,15 @@
 @import "Colors.css";
 
-.paragraph {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-}
-
 .Home {
   color: var(--color-7);
 }
 
 li{
   margin: 1vh 0;
+}
+
+.about {
+  color: var(--color-7);
 }
 
 a {

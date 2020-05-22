@@ -3,7 +3,7 @@ import './Teaching.css';
 
 import TeachingData from './data/TeachingData';
 
-const Coursename {
+const Coursename = ({url, course}) => {
   if (url.length > 0) {
     return (
       <a target="_blank" className="courseurl" rel="noopener noreferrer" href={url}>
@@ -12,7 +12,7 @@ const Coursename {
     );
   } else {
     return (
-      {course}
+      course
     );
   }
 };
@@ -21,17 +21,21 @@ const Coursename {
 function TeachingExperience({course, institution, url, role, time}) {
   return (
     <div className="teaching">
-      <div className="content role">
-        {role}
+      <div className="teachingrow">
+        <div className="content role">
+          {role}
+        </div>
+        <div className="content institution">
+          {institution}
+        </div>
+        <div className="content time">
+          {time}
+        </div>
       </div>
-      <div className="content course">
-        <Coursename url="url" course="course"/>
-      </div>
-      <div className="content institution">
-        {institution}
-      </div>
-      <div className="content time">
-        {time}
+      <div className="teachingrow">
+        <div className="content course">
+          <Coursename url={url} course={course}/>
+        </div>
       </div>
     </div>
   )

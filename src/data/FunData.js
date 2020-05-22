@@ -29,7 +29,7 @@ export default [
   {
     item: 
       <div>
-        {`Long Walks`}
+        {`Pretending I have a Green Thumb`}
       </div>,
     show: true,
   },

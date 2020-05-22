@@ -22,7 +22,7 @@ export default [
     title: "The Dorito Effect",
     author: "Mark Schatzker",
     url: "//www.goodreads.com/book/show/22609354-the-dorito-effect",
-    show: true,
+    show: false,
   },
   {
     title: "Half The Sky",

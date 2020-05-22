@@ -10,13 +10,13 @@ const Fun = ({item}) => (
 
 const Book = ({title, author, url}) => (
   <li> 
-    <div class="book">
-      <div class="title">
-        <a class="bookurl" target="_blank" rel="noopener noreferrer" href={url}>
+    <div className="book">
+      <div className="title">
+        <a className="bookurl" target="_blank" rel="noopener noreferrer" href={url}>
           {title}
         </a>
       </div>
-      <div class="author"> {author}</div>
+      <div className="author"> {author}</div>
     </div> 
   </li>
   
@@ -42,11 +42,11 @@ export default function Personal() {
       <div>
         <h4> Personal </h4>
       </div>
-      <div className="paragraph"> 
-        {` How I procrastinate: `}
+      <div className="paragraph content fun"> 
+        {` How I Procrastinate: `}
         <ul> {fun} </ul>
       </div>
-      <div className="paragraph"> 
+      <div className="paragraph content"> 
         {` Recent Favorite Books: `}
         <ul> {books} </ul>
       </div>

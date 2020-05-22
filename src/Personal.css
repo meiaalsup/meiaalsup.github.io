@@ -1,19 +1,9 @@
 @import "Colors.css";
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.paragraph {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-}
 
 .Personal {
   display: flex;
   flex-flow: column wrap;
-  color: var(--color-6);
 }
 
 .book {
@@ -25,7 +15,7 @@ p {
 .bookurl {
   text-decoration: none;
   display: flex;
-  color: var(--color-7);
+  color: var(--color-6);
 }
 
 .bookurl:hover {

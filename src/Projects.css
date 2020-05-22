@@ -1,7 +1,43 @@
 @import "Colors.css";
 
-.paragraph {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+
+.project {
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: calc(4px + 1.5vh);
 }
 
+.projectrow {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.name, .projecturl {
+  color: var(--color-7);
+}
+
+.projecturl:hover {
+  color: var(--color-4);
+}
+
+.tech {
+  color: var(--color-4);
+}
+.time {
+  color: var(--color-4);
+}
+.association {
+  color: var(--color-6);
+}
+.description {
+  color: var(--color-5);
+}
+
+.websitelink {
+  color: var(--color-6);
+
+}
+
+.websitelink:hover {
+  color: var(--color-3);
+}

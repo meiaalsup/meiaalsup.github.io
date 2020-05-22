@@ -1,19 +1,16 @@
 .media {
-  padding-left: 3vw;
   display: flex;
+  margin-left: calc(8px + 1.5vw);
+  margin-right: calc(8px + 1.5vw);
   flex-flow: column wrap;
 }
 
-.iconlabel {
-  font-size: calc(6px + 1vh);
-  align-self: center;
-}
 
 .iconSection {
   display: flex;
   flex-flow: row wrap;
-  padding-top: .4vh;
-  padding-bottom: .4vh;
+  padding-top: .2vh;
+  padding-bottom: .2vh;
   text-decoration: none;
   color: var(--color-6);
   align-items: center;
@@ -23,14 +20,10 @@
   color: var(--color-4);
 }
 
-.icon {
+.iconlabel {
   display: flex;
-  padding-left: .7vw;
-  padding-right: .7vw;
-  align-items: center;
+  font-size: calc(6px + .5vh + .5vw);
   align-self: center;
+  align-items: center;
 }
 
-#strava {
-  margin-right: 2px;
-}

@@ -3,7 +3,7 @@ import './Home.css';
 import HomeData from './data/HomeData';
 
 const Now = ({item}) => (
-  <li> {item} </li>
+  <li className="about"> {item} </li>
   
 )
 
@@ -18,11 +18,11 @@ export default function Home() {
 
   return (
     <div className="Home">
-      <div className="paragraph"> 
+      <div className="paragraph content"> 
         {` Hi, I'm Meia. I am currently: `}
         <ul> {now} </ul>
       </div>
-      <div className="paragraph">
+      <div className="paragraph content">
         {` 
         I am broadly interested in distributed systems, machine learning, optimization, and sustainability. I love meeting new people - feel free to drop a line!
         `}

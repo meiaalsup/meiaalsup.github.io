@@ -29,9 +29,12 @@ export default [
   {
     item:
       <div>
-        {`Teaching AI to high schoolers with `}
-        <a target="_blank" rel="noopener noreferrer" href="//www.inspiritai.com/">
-          Inspirit AI
+        {`Learning about nutrition - specifically: `}
+        <a target="_blank" rel="noopener noreferrer" href="//courses.edx.org/courses/course-v1:WageningenX+NUTR101x+1T2020/course/">
+          this
+        </a>{` and `} 
+        <a target="_blank" rel="noopener noreferrer" href="//courses.edx.org/courses/course-v1:WageningenX+NUTR102x+1T2020/course/">
+          this
         </a>.
       </div>,
     show: true,

@@ -1,7 +1,27 @@
 @import "Colors.css";
 
-.paragraph {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+
+.teaching {
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: calc(4px + 1.5vh);
 }
 
+.teachingrow {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.institution {
+  color: var(--color-7);
+}
+
+.role {
+  color: var(--color-6);
+}
+.time {
+  color: var(--color-4);
+}
+.course {
+  color: var(--color-4);
+}

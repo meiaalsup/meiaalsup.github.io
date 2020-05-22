@@ -8,16 +8,16 @@
 // }
 export default [
   {
-    name: "LinkedIn",
-    url: "//www.linkedin.com/in/meiaalsup/",
-    faclass: "fab fa-linkedin icon",
+    name: "Github",
+    url: "//github.com/meiaalsup",
+    faclass: "fab fa-github icon",
     id: "",
     show: true,
   },
   {
-    name: "Github",
-    url: "//github.com/meiaalsup",
-    faclass: "fab fa-github icon",
+    name: "LinkedIn",
+    url: "//www.linkedin.com/in/meiaalsup/",
+    faclass: "fab fa-linkedin icon",
     id: "",
     show: true,
   },
@@ -32,7 +32,7 @@ export default [
     name: "Strava",
     url: "//www.strava.com/athletes/20522114",
     faclass: "fab fa-strava icon",
-    id: "",
+    id: "strava",
     show: true,
   },
   {
