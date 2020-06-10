@@ -31,9 +31,21 @@ export default [
     show: true,
   },
   {
+    title: "The Wizard and the Prophet",
+    author: "Charles Mann",
+    url: "https://www.goodreads.com/book/show/34959327-the-wizard-and-the-prophet",
+    show: true,
+  },
+  {
     title: "Educated",
     author: "Tara Westover",
     url: "https://www.goodreads.com/book/show/35133922-educated",
+    show: true,
+  },
+  {
+    title: "Hotel on the Corner of Bitter and Sweet",
+    author: "Jamie Ford",
+    url: "https://www.goodreads.com/book/show/3367956-hotel-on-the-corner-of-bitter-and-sweet",
     show: true,
   },
   {
