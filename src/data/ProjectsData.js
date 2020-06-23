@@ -20,6 +20,15 @@ export default [
     show: true,
   },
   {
+    name: "MIT KOMs Tracker",
+    time: "June 2020",
+    description: "A simple website to check in on friendly competition amongst a few MIT cyclists",
+    association: "A quick fun hack",
+    tech: "Built with Flask and React",
+    url: "//github.com/meiaalsup/mit-koms",
+    show: true,
+  },
+  {
     name: "This Site :)",
     time: "May 2020",
     description: "Something something personal brand",
