@@ -8,16 +8,27 @@ export default [
   {
     item: 
       <div>
-        {`Researching electricity demand in India in as a part of `}
-        <a target="_blank" rel="noopener noreferrer" href="//energy.mit.edu/">
-          MITei
-        </a>{`'s `} 
-        <a target="blank" rel="noopener noreferrer" href="//energy.mit.edu/research-type/future-of/"> 
-          Future of Energy Storage Study
-        </a>.
+        {`Engineering at `}
+        <a target="_blank" rel="noopener noreferrer" href="//x.company/">
+          X, the moonshot factory
+        </a>
+        {`, on a sustainable agriculture moonshot.`}
       </div>,
     show: true,
   },
+//  {
+//    item: 
+//      <div>
+//        {`Researching electricity demand in India as a part of `}
+//        <a target="_blank" rel="noopener noreferrer" href="//energy.mit.edu/">
+//          MITei
+//        </a>{`'s `} 
+//        <a target="blank" rel="noopener noreferrer" href="//energy.mit.edu/research-type/future-of/"> 
+//          Future of Energy Storage Study
+//        </a>.
+//      </div>,
+//    show: true,
+//  },
   {
     item: 
       <div> 

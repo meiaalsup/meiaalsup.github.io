@@ -16,7 +16,7 @@ export default [
     name: "MIT Energy Initiative",
     url: "//energy.mit.edu/",
     role: "Graduate Research",
-    time: "Fall 2019 - Spring 2020",
+    time: "Fall 2019 - Summer 2020",
   },
   {
     name: "MIT Sustainable Design Lab",
