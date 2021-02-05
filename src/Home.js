@@ -24,7 +24,7 @@ export default function Home() {
       </div>
       <div className="paragraph content">
         {` 
-        I am broadly interested in distributed systems, machine learning, optimization, and sustainability. I love meeting new people - feel free to drop a line!
+        I am broadly interested in machine learning (especially sequence modeling), distributed systems, and sustainability. I love meeting new people - feel free to drop a line!
         `}
       </div>
     </div>

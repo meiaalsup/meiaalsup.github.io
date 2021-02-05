@@ -35,7 +35,7 @@ export default function App() {
                   </div>
                   <div className="header">
                     <NavLink className="nav" to="/">
-                      <h2> MIT M'Eng 2020 </h2>
+                      <h2> ML Engineer @ X | MIT </h2>
                     </NavLink>
                   </div>
                   <div className="header">

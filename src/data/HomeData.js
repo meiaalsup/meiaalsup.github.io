@@ -12,7 +12,7 @@ export default [
         <a target="_blank" rel="noopener noreferrer" href="//x.company/">
           X, the moonshot factory
         </a>
-        {`, on a sustainable agriculture moonshot.`}
+        {`, on Mineral, a sustainable agriculture moonshot.`}
       </div>,
     show: true,
   },
@@ -40,7 +40,7 @@ export default [
   {
     item:
       <div>
-        {`Learning about nutrition - specifically: `}
+        {`Learning about nutrition, most recently I completed: `}
         <a target="_blank" rel="noopener noreferrer" href="//courses.edx.org/courses/course-v1:WageningenX+NUTR101x+1T2020/course/">
           this
         </a>{` and `} 
