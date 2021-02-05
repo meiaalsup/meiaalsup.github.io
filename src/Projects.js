@@ -17,6 +17,11 @@ const Projectname = ({url, name}) => {
   }
 };
 
+const projects = ProjectsData.filter(
+({show}) => show
+).map((props, i) =>
+<Project {...props} key={i} />
+);
 
 function Project({name, description, association, tech, url, time}) {
   return (
@@ -47,11 +52,6 @@ function Project({name, description, association, tech, url, time}) {
 }
 
 export default function Projects() {
-  const projects = ProjectsData.filter(
-    ({show}) => show
-  ).map((props, i) =>
-    <Project {...props} key={i} />
-  );
   return (
     <div className="Projects">
       <div id="ProjectsHeader">
