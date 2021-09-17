@@ -4,21 +4,7 @@ import React from 'react';
 //  item: ''
 //  show: bool
 // }
-export default [
-  {
-    item: 
-      <div>
-        {`Road Cycling`}
-      </div>,
-    show: true,
-  },
-  {
-    item: 
-      <div>
-        {`Backpacking`}
-      </div>,
-    show: true,
-  },
+const funPageData = [
   {
     item: 
       <div>
@@ -29,7 +15,14 @@ export default [
   {
     item: 
       <div>
-        {`Pretending I have a Green Thumb`}
+        {`Cycling`}
+      </div>,
+    show: true,
+  },
+  {
+    item: 
+      <div>
+        {`Backpacking`}
       </div>,
     show: true,
   },
@@ -50,6 +43,13 @@ export default [
   {
     item: 
       <div>
+        {`Pretending I have a Green Thumb`}
+      </div>,
+    show: true,
+  },
+  {
+    item: 
+      <div>
         {`Audiobooks`}
       </div>,
     show: true,
@@ -62,3 +62,4 @@ export default [
     show: true,
   },
 ]
+export default funPageData

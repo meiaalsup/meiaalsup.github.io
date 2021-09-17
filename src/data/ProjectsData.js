@@ -9,7 +9,7 @@ import React from 'react';
 //  url: ''
 //  show: bool
 // }
-export default [
+const workPageData = [
   {
     name: "SmartCache",
     time: "Spring 2020",
@@ -108,3 +108,4 @@ export default [
     show: true,
   },
 ]
+export default workPageData

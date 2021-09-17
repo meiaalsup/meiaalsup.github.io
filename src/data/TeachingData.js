@@ -6,7 +6,7 @@
 //  institution: ''
 //  url: ''
 // }
-export default [
+const teachingPageData = [
   {
     role: "Teaching Assistant",
     time: "Spring 2019",
@@ -50,3 +50,5 @@ export default [
     url: "",
   },
 ]
+export default teachingPageData
+

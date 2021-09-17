@@ -22,7 +22,7 @@ export default function Home() {
         <ul> {now} </ul>
       </div>
       <div className="paragraph content">
-        I am broadly interested in machine learning (especially sequence modeling), distributed systems, and sustainability. I love meeting new people - feel free to drop a line!
+        I am broadly interested in sustainability, plant based foods, machine learning and distributed systems. I love meeting new people - feel free to drop a line!
       </div>
     </div>
   );

@@ -5,11 +5,11 @@
 //  role: ''
 //  time: ''
 // }
-export default [
+const workPageData = [
   {
     name: "X, the moonshot factory",
     url: "//x.company/",
-    role: "Machine Learning Infrastructure",
+    role: "Research Engineering",
     time: "July 2020 - ",
   },
   {
@@ -33,7 +33,7 @@ export default [
   {
     name: "Lyft",
     url: "//lyft.com/",
-    role: "Developer Infrastructure",
+    role: "Developer Infrastructure Engineering",
     time: "Summer 2018",
   },
   {
@@ -61,3 +61,4 @@ export default [
     time: "Spring 2016",
   },
 ]
+export default workPageData

@@ -5,7 +5,7 @@
 //  url: ''
 //  show: bool
 // }
-export default [
+const booksPageData = [
   {
     title: "The Alchemy of Air",
     author: "Thomas Hager",
@@ -61,3 +61,4 @@ export default [
     show: true,
   },
 ]
+export default booksPageData

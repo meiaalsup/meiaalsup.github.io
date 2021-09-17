@@ -4,7 +4,8 @@ import React from 'react';
 //  item: ''
 //  show: bool
 // }
-export default [
+
+const homePageData = [
   {
     item: 
       <div>
@@ -30,10 +31,12 @@ export default [
 //    show: true,
 //  },
   {
-    item: 
-      <div> 
-        {`Volunteering with `}
-        <a target="_blank" rel="noopener noreferrer" href="//climatevoice.org/about/"> Climate Voice</a>.
+    item:
+      <div>
+        {`Learning about human sensation of flavor, I am currently reading Harry T. Lawless and Hildegarde Heymann's brilliant guide - `}
+        <a target="_blank" rel="noopener noreferrer" href="https://www.springer.com/gp/book/9781441964878">
+          Sensory Evaluation of Food
+        </a>.
       </div>,
     show: true,
   },
@@ -71,3 +74,4 @@ export default [
     show: true,
   },
 ]
+ export default homePageData

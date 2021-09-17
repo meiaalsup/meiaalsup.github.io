@@ -6,7 +6,7 @@
 //   id: ''
 //   show: ''
 // }
-export default [
+const iconPageData = [
   {
     name: "Github",
     url: "//github.com/meiaalsup",
@@ -43,3 +43,4 @@ export default [
     show: true,
   },
 ]
+export default iconPageData
