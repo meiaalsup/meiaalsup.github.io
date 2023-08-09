@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-  HashRouter as Router,
-  NavLink
+  NavLink,
+  BrowserRouter,
 } from "react-router-dom";
 
 import './App.css';
@@ -12,7 +12,7 @@ import meia from './assets/profile.png'
 
 export default function App() {
   return (
-    <Router><nav>
+    <BrowserRouter><nav>
       <div className="App">
         <div className="headerbar">
           <header>
@@ -35,7 +35,7 @@ export default function App() {
                   </div>
                   <div className="header">
                     <NavLink className="nav" to="/">
-                      <h2> ML Engineer @ X | MIT </h2>
+                      <h2> Co-Founder @ Feanix Bio </h2>
                     </NavLink>
                   </div>
                   <div className="header">
@@ -57,7 +57,7 @@ export default function App() {
         </div>
         <NavContent/> 
       </div>
-    </nav></Router>
+    </nav></BrowserRouter>
   );
 }
 

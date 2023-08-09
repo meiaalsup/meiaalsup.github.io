@@ -7,10 +7,16 @@
 // }
 const workPageData = [
   {
+    name: "Feanix Bio",
+    url: "//feanixbio.com/",
+    role: "Co-Founder",
+    time: "Aug 2023 - ",
+  },
+  {
     name: "X, the moonshot factory",
     url: "//x.company/",
-    role: "Research Engineering",
-    time: "July 2020 - ",
+    role: "ML + Software Engineering",
+    time: "July 2020 - Aug 2023",
   },
   {
     name: "MIT Energy Initiative",

@@ -2,7 +2,8 @@ import React from 'react';
 import './NavContent.css'
 import {
   Route,
-  NavLink
+  NavLink,
+  Routes
 } from "react-router-dom";
 
 import Home from './Home'
@@ -64,19 +65,19 @@ const navbar = navItems.filter(
 
 
 
-const SwitchItem = ({content, addr}) => {
-  return (
-    <Route exact path={`/${addr}`} >
-      {content}
-    </Route>
-  );
-}
+//const SwitchItem = ({content, addr}) => {
+//  return (
+//    <Route exact path={`/${addr}`} >
+//      {content}
+//    </Route>
+//  );
+//}
 
 const switches = navItems.filter(
   ({show, isHome}) => show 
 ).map(
   ({component, route}, i) => {
-    return <SwitchItem content={component} addr={route} key={i} />;
+    return <Route element={component} path={route} key={i} />;
   }
 )
 
@@ -89,7 +90,9 @@ export default function NavContent() {
         {navbar}
       </div>
       <div className="PageContent">
+        <Routes>
         {switches}
+        </Routes>
       </div>
     </div>
   )

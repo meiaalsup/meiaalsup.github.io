@@ -9,11 +9,20 @@ const homePageData = [
   {
     item: 
       <div>
-        {`Engineering at `}
-        <a target="_blank" rel="noopener noreferrer" href="//x.company/">
-          X, the moonshot factory
+        {`Bringing better genetics into agriculture at `}
+        <a target="_blank" rel="noopener noreferrer" href="//feanixbio.com/">
+          Feanix Bio
         </a>
-        {`, on Mineral, a sustainable agriculture moonshot.`}
+      </div>,
+    show: true,
+  },
+  {
+    item: 
+      <div>
+        {`Conducting organic farm inspections with `}
+        <a target="_blank" rel="noopener noreferrer" href="//ccof.org">
+          CCOF
+        </a>
       </div>,
     show: true,
   },

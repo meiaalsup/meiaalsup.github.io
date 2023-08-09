@@ -8,6 +8,20 @@ const funPageData = [
   {
     item: 
       <div>
+        {`Salsa Dancing`}
+      </div>,
+    show: true,
+  },
+  {
+    item: 
+      <div>
+        {`Backpacking`}
+      </div>,
+    show: true,
+  },
+  {
+    item: 
+      <div>
         {`Experimenting with Plant Based Ingredients`}
       </div>,
     show: true,
@@ -22,14 +36,7 @@ const funPageData = [
   {
     item: 
       <div>
-        {`Backpacking`}
-      </div>,
-    show: true,
-  },
-  {
-    item: 
-      <div>
-        {`Salsa Dancing`}
+        {`Krav Maga`}
       </div>,
     show: true,
   },
@@ -38,7 +45,7 @@ const funPageData = [
       <div>
         {`Doodling on the Flute`}
       </div>,
-    show: true,
+    show: false,
   },
   {
     item: 
@@ -52,12 +59,12 @@ const funPageData = [
       <div>
         {`Audiobooks`}
       </div>,
-    show: true,
+    show: false,
   },
   {
     item: 
       <div>
-        {`Practicing my Broken Mandarin and Spanish`}
+        {`Practicing my broken Mandarin and Spanish`}
       </div>,
     show: true,
   },
