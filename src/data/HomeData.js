@@ -9,9 +9,9 @@ const homePageData = [
   {
     item: 
       <div>
-        {`Bringing better genetics into agriculture at `}
+        {`Bringing advanced genetics into agriculture at `}
         <a target="_blank" rel="noopener noreferrer" href="//feanixbio.com/">
-          Feanix Bio
+          Feanix Bio.
         </a>
       </div>,
     show: true,
@@ -19,9 +19,9 @@ const homePageData = [
   {
     item: 
       <div>
-        {`Conducting organic farm inspections with `}
+        {`Conducting USDA organic inspections with `}
         <a target="_blank" rel="noopener noreferrer" href="//ccof.org">
-          CCOF
+          CCOF.
         </a>
       </div>,
     show: true,
