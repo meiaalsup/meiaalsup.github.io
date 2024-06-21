@@ -7,80 +7,110 @@ import React from 'react';
 
 const homePageData = [
   {
-    item: 
+    item: (
       <div>
         {`Bringing advanced genetics into agriculture at `}
         <a target="_blank" rel="noopener noreferrer" href="//feanixbio.com/">
-          Feanix Bio.
+          Feanix.
         </a>
-      </div>,
+      </div>
+    ),
     show: true,
   },
   {
-    item: 
+    item: (
       <div>
         {`Conducting USDA organic inspections with `}
         <a target="_blank" rel="noopener noreferrer" href="//ccof.org">
           CCOF.
         </a>
-      </div>,
+      </div>
+    ),
     show: true,
   },
-//  {
-//    item: 
-//      <div>
-//        {`Researching electricity demand in India as a part of `}
-//        <a target="_blank" rel="noopener noreferrer" href="//energy.mit.edu/">
-//          MITei
-//        </a>{`'s `} 
-//        <a target="blank" rel="noopener noreferrer" href="//energy.mit.edu/research-type/future-of/"> 
-//          Future of Energy Storage Study
-//        </a>.
-//      </div>,
-//    show: true,
-//  },
+  //  {
+  //    item:
+  //      <div>
+  //        {`Researching electricity demand in India as a part of `}
+  //        <a target="_blank" rel="noopener noreferrer" href="//energy.mit.edu/">
+  //          MITei
+  //        </a>{`'s `}
+  //        <a target="blank" rel="noopener noreferrer" href="//energy.mit.edu/research-type/future-of/">
+  //          Future of Energy Storage Study
+  //        </a>.
+  //      </div>,
+  //    show: true,
+  //  },
   {
-    item:
+    item: (
       <div>
         {`Learning about human sensation of flavor, I am currently reading Harry T. Lawless and Hildegarde Heymann's brilliant guide - `}
-        <a target="_blank" rel="noopener noreferrer" href="https://www.springer.com/gp/book/9781441964878">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.springer.com/gp/book/9781441964878"
+        >
           Sensory Evaluation of Food
-        </a>.
-      </div>,
+        </a>
+        .
+      </div>
+    ),
     show: true,
   },
   {
-    item:
+    item: (
       <div>
         {`Learning about nutrition, most recently I completed: `}
-        <a target="_blank" rel="noopener noreferrer" href="//courses.edx.org/courses/course-v1:WageningenX+NUTR101x+1T2020/course/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="//courses.edx.org/courses/course-v1:WageningenX+NUTR101x+1T2020/course/"
+        >
           this
-        </a>{` and `} 
-        <a target="_blank" rel="noopener noreferrer" href="//courses.edx.org/courses/course-v1:WageningenX+NUTR102x+1T2020/course/">
+        </a>
+        {` and `}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="//courses.edx.org/courses/course-v1:WageningenX+NUTR102x+1T2020/course/"
+        >
           this
-        </a>.
-      </div>,
+        </a>
+        .
+      </div>
+    ),
     show: true,
   },
   {
-    item: 
+    item: (
       <div>
-        <a target="_blank" rel="noopener noreferrer" href="//www.goodreads.com/user/show/91314559-meia-alsup">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="//www.goodreads.com/user/show/91314559-meia-alsup"
+        >
           Reading
         </a>
         {` - mostly about food / agriculture.`}
-      </div>,
+      </div>
+    ),
     show: true,
   },
   {
-    item:
+    item: (
       <div>
         {`Exploring Planet Earth by `}
-        <a target="_blank" rel="noopener noreferrer" href="//www.strava.com/athletes/20522114">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="//www.strava.com/athletes/20522114"
+        >
           bike
-        </a>.
-      </div>,
+        </a>
+        .
+      </div>
+    ),
     show: true,
   },
-]
- export default homePageData
+];
+export default homePageData;
