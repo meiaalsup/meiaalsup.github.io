@@ -6,90 +6,81 @@
     <meta name="description" content="Meia Alsup - About Me">
     <title>Meia Alsup</title>
     <style>
+        html {
+            box-sizing: border-box;
+        }
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
         body {
-            font-family: 'Georgia', serif;
-            max-width: 800px;
+            margin: 0;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #111;
+            background: #fff;
+        }
+        .container {
+            max-width: 720px;
             margin: 0 auto;
-            padding: 40px 20px;
-            line-height: 1.4;
-            color: #333;
-            background-color: #fff;
+            padding: 24px 16px;
         }
-        
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 40px;
+        /* Make all text the same size and keep things simple */
+        h1, h2, h3, h4, h5, h6 {
+            font-size: inherit;
             font-weight: normal;
+            margin: 0 0 0.75em;
         }
-        
-        h2 {
-            font-size: 1.3em;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-weight: bold;
+        p {
+            margin: 0 0 0.75em;
         }
-        
         ul {
-            list-style-type: disc;
-            margin-left: 20px;
+            margin: 0 0 1em;
+            padding-left: 1.25em;
         }
-        
-        ul ul {
-            list-style-type: circle;
-            margin-top: 5px;
-            margin-bottom: 15px;
+        li + li {
+            margin-top: 0.25em;
         }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        a {
-            color: #0066cc;
-            text-decoration: underline;
-        }
-        
-        a:hover {
-            color: #003366;
-        }
-        
         .social-links {
-            margin-bottom: 40px;
+            margin-bottom: 1em;
         }
-        
         .social-links a {
-            margin-right: 20px;
+            margin-right: 12px;
         }
     </style>
 </head>
 <body>
-    <h1>Meia Alsup</h1>
-    
-    <div class="social-links">
-        <a href="https://github.com/meiaalsup" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/meiaalsup" target="_blank">LinkedIn</a>
-        <a href="https://twitter.com/meia_alsup" target="_blank">Twitter</a>
-        <a href="mailto:firstname.lastname@gmail.com">Email</a>
-        <a href="https://www.goodreads.com/user/show/91314559-meia-alsup" target="_blank">Goodreads</a>
-        <a href="https://www.strava.com/athletes/20522114" target="_blank">Strava</a>
+    <div class="container">
+        <h1>Meia Alsup</h1>
+        
+        <div class="social-links">
+            <a href="https://github.com/meiaalsup" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/meiaalsup" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/meia_alsup" target="_blank">Twitter</a>
+            <a href="mailto:firstname.lastname@gmail.com">Email</a>
+            <a href="https://www.goodreads.com/user/show/91314559-meia-alsup" target="_blank">Goodreads</a>
+            <a href="https://www.strava.com/athletes/20522114" target="_blank">Strava</a>
+        </div>
+
+        <h2>Some things about me:</h2>
+        <ul>
+            <li>Grew up in CA</li>
+            <li>Studied computer things at MIT and consider Boston home</li>
+            <li>I do software and AI things in SF</li>
+            <li>Started a <a href="https://feanixbio.com" target="_blank">company</a> </li>
+            <li>Currently learning from the amazing people at SPC</li>
+            <li>I have spent a bunch of time thinking about agriculture, food systems, genomics, artificial wombs, eating disorder recovery, AI therapy, recruiting.</li>
+            <li>gen Z <a href="https://jenaalsup.com" target="_blank" >Alsup</a> is way funnier.</li>
+        </ul>
+
+        <h2>Some questions I have. </h2>
+        If you have any insights I would love if you sent me an email with thoughts or to grab coffee
+        <ul>
+            <li>In an abundant world and society, what do you want your kids to strive for?</li>
+            <li>What needs to happen to implement the <a href="https://www.mckinsey.com/capabilities/operations/our-insights/the-rail-plus-property-model" target="_blank"> rail + propery model </a> in the US?</li>
+            <li>Who is working on artificial wombs? Can I help? When will it be ready?</li>
+            <li>I don't care about luxury goods. I just want to live a car-less life with community and loved ones around me. For some reason, in the US this is priced as a luxury good. Therefore to my great disdain there is in fact a luxury good I want. How do we make cities the affordable default and do away with the soulless parking lot nature of suburbia?</li>
+        </ul>
     </div>
-
-    <h2>Some things about me:</h2>
-    <ul>
-        <li>I do software and AI things in SF</li>
-        <li>Currently learning from the amazing people at SPC</li>
-        <li>Studied computer things at MIT</li>
-        <li>I have spent a bunch of time thinking about agriculture, food systems, genomics, artificial wombs, eating disorder recovery, AI therapy, recruiting.</li>
-        <li>gen Z <a href="https://jenaalsup.com" target="_blank" >Alsup</a> is way funnier.</li>
-    </ul>
-
-    <h2>Some questions I have. </h2>
-    If you have any insights I would love if you sent me an email with thoughts or to grab coffee
-    <ul>
-        <li>In an abundant world and society, what do you want your kids to strive for?</li>
-        <li>What needs to happen to implement the <a href="https://www.mckinsey.com/capabilities/operations/our-insights/the-rail-plus-property-model" target="_blank"> rail + propery model </a> in the US?</li>
-        <li>Who is working on artificial wombs? Can I help? When will it be ready?</li>
-    </ul>
-
 </body>
 </html>
